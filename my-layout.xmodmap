@@ -326,3 +326,14 @@ add Mod5 = ISO_Level3_Shift
 !     Hierzu wird mittels Shift+Mod4+T1 dieser Betriebsmodus ein- und später wieder ausgeschaltet.
 !     Die Steuerung des Cursors kann über den Ziffernblock (Ebene 4, eventuell mit
 !     eingerastetem Mod4) erfolgen.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Experimentell: Linke und Rechte Windows-Taste
+! als zusätzliche Strg
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+clear Control
+clear Mod4
+keysym Super_R = Control_R
+keysym Super_L = Control_L
+add Control = Control_L Control_R
+add Mod4 = Super_L Super_R
