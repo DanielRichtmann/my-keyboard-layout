@@ -1,6 +1,7 @@
-!! ~/.xmodmap
-!! 
-!! German Neo-Layout
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! German Neo-Layout (modified)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Original preamble:
 !! adopted 2004 by Hanno Behrens <Hanno.Behrens@gmx.de>
 !! inspired by Dvorak/de-ergo  http://www.goebel-consult.de/de-ergo/
 !! Authors: 
@@ -17,6 +18,12 @@
 !! To try the layout in this file, simply do xmodmap <file>.
 !! To load the layout in this file at X startup, simply store it as
 !! ~/.xmodmap
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Some modifications:
+!!      Additional escape key for better use with vim
+!!      Additional control keys for less pain
+!! Author:
+!!      Daniel Richtmann <daniel dot richtmann at gmail dot com>
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -328,8 +335,8 @@ add Mod5 = ISO_Level3_Shift
 !     eingerastetem Mod4) erfolgen.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Experimentell: Linke und Rechte Windows-Taste
-! als zusätzliche Strg
+! Linke und Rechte Windows-Taste als zusätzliche
+! Strg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 clear Control
 clear Mod4
